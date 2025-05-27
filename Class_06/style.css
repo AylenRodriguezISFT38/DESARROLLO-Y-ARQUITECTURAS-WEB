@@ -42,11 +42,11 @@
     text-decoration: none;
 }
 .nav li a, .side li a {
-    color: var(--detalles);
+    color: var(--principalBackground);
     font-weight: bolder;
   }
 .nav ul li a:hover, .side ul li a:hover{
-    color: var(--principalBackground);
+    color: var(--detalles);
 }
 .side{
     background: var(--fondoArticulos);
@@ -176,7 +176,7 @@ footer {
     }
     .side{
         margin:20px 0 ;
-        height: 20vh;
+        height: 30vh;
         width: 40vw;
         text-align: left;
     }
