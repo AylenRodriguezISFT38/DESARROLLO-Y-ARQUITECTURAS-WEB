@@ -1,0 +1,54 @@
+:root{
+    --header: #4CAF50;
+    --footer: #333;
+    --text: #fff;
+    --link: #2196F3;
+    --link-hover: #0b7dda;
+    --background: #f4f4f4;
+    --button: #4CAF50;
+    --button-hover: #45a049;
+}
+header{
+    background-color: var(--header);
+    color: var(--text);
+    padding: 10px 0;
+    text-align: center;
+}
+footer{
+    background-color: var(--footer);
+    color: var(--text);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.container{
+   width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--background);
+    border-radius: 8px;
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+}
+.container ul li {
+  background-image: url('./pngwing.com.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  padding-left: 40px; 
+  margin: 10px;
+}
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--link-hover);
+}
+
+
