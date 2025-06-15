@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Class_10/normalize.css">
+    <link rel="stylesheet" href="../Class_10/style.css">
+
+    <title>CSS Actualizaciones</title>
+</head>
+<body>
+    <header class="header">
+        <h1>NoticiasSharp</h1>
+      </header>
+      <nav class="nav">
+        <ul>
+         <li class="mennu-item"><a href="#article_1">Lanzamiento</a></li>
+          <li class="mennu-item"><a href="#article_2">HTML6</a></li>
+          <li class="mennu-item"><a href="#article_3">Llegada</a></li>
+          <li class="mennu-item"><a href="#article_4">Características</a></li>
+          <li class="mennu-item"><a href="#article_5">Diferencias</a></li>
+        </ul>
+      </nav>
+    <main>
+        <aside class="side">
+            <h3>Notas Breves</h3>
+            <p>➡️ Meta lanza su nuevo visor de realidad mixta.</p>
+            <p>➡️ Intel muestra su arquitectura Lunar Lake.</p>
+          </aside>
+
+
+        <div class="divspace">
+        <article id="article_1">
+            <img src="https://tt-hardware.com/wp-content/uploads/2023/10/HTML6-Les-nouvelles-fonctionnalites-attendues-1.png" alt="html 6 updates">
+            <div>
+                <h2>¿Cuándo se lanzará HTML 6? ¿Qué mejoras respecto a HTML5? </h2>
+                <p>HTML es el lenguaje básico de la web, utilizado para estructurar y mostrar el contenido de las páginas web. Desde su creación en 1991, HTML ha experimentado varias evoluciones, con la incorporación de nuevas etiquetas, nuevos atributos y nuevas funciones.</p>
+                <p>La última versión principal del lenguaje, HTML5, se lanzó en 2014 y trajo muchas mejoras.</p>
+                <p><strong>¿Cuándo podemos esperar que llegue HTML 6?</strong> ¿Qué habrá de nuevo en esta versión? Esto es lo que intentaremos ver en este artículo. </p>
+            </div>
+        </article>
+
+
+
+        <article id="article_2">
+            <h2>¿Qué es HTML6?</h2>
+            <p>Este es un proyecto en curso que tiene como objetivo ampliar las capacidades del HTML5 actual y satisfacer las necesidades emergentes de la web.</p>
+            <p>HTML6 aún no es un estándar oficial, sino un conjunto de propuestas y experimentos discutidos por la comunidad web.</p>
+            <p><u>Entre estas iniciativas podemos citar:</u></p>
+            <ul>
+                <li>Web Components: permite crear elementos HTML personalizados y reutilizables.</li>
+                <li>Proyecto Houdini: ofrece más control sobre cómo se representan los elementos en el navegador.</li>
+                <li>Extensible Web Manifesto: busca que los estándares web sean extensibles por los propios desarrolladores.</li>
+            </ul>
+        </article>
+
+        <article id="article_3">
+            <img src="https://tt-hardware.com/wp-content/uploads/2023/10/HTML6-Tout-savoir-4.png" alt="html 6 logo">
+           <div>
+            <h2>¿Cuándo llegará HTML6?</h2>
+            <p>HTML ahora evoluciona bajo un modelo "vivo", con actualizaciones incrementales en lugar de versiones completas.</p>
+            <p>Muchas características pensadas para HTML6 ya se están incorporando poco a poco en los navegadores modernos.</p>
+            <p>Otras ideas pueden ser abandonadas o reemplazadas por soluciones más efectivas.</p>
+            <p>Herramientas como HTML6.js y HTML6 Boilerplate permiten experimentar hoy con propuestas del futuro.</p>
+        </div>
+        </article>
+
+        <article id="article_4">
+            <h2>¿Qué nuevas características se esperan en HTML6?</h2>
+            <p>Algunas de las funciones que podrían incluirse son:</p>
+            <h3>Elementos HTML personalizados</h3>
+            <p>Permiten crear nuevas etiquetas con comportamiento y estilos propios. Se usarían con tecnologías como Web Components.</p>
+        </article>
+
+        <article id="article_5">
+            <h2>¿Cuál es la diferencia entre HTML6 y HTML5?</h2>
+            <p>HTML6 buscará una sintaxis más moderna, modular y adaptable, mejor integración con tecnologías web actuales y mayor soporte multiplataforma.</p>
+            <p>HTML5 ya fue un gran avance, incorporando soporte para audio, video, SVG, formularios mejorados, almacenamiento local y más.</p>
+        </article>
+
+        <div id="contact-form-container">
+            <h4 class="form-title">Subscribirse</h4>     
+            <h5 class="saludar">Hola</h5>   
+            <form id="contact-form" class="form-subs">
+            <div class="form-columns"> 
+                <div class="content-1">
+                    <input type="text" id="nombreCompleto" placeholder="Nombre completo" class="form-input">
+                    <input type="email" placeholder="Email" id="email" class="form-input">
+                    <input type="text" id="contrasenia" placeholder="Contraseña" class="form-input">
+                    <input type="number" pattern="\d*" id="edad" placeholder="Edad" class="form-input">
+                </div>
+                <div class="content-2"> <!-- uso pattern para validar numeros porque firefox no me toma el type number -->
+                    <input type="number" pattern="\d*" id="telefono" placeholder="Teléfono" class="form-input">
+                    <input type="text" id="direccion" placeholder="Dirección" class="form-input">
+                    <input type="text" id="ciudad" placeholder="Ciudad" class="form-input">
+                    <input type="number" pattern="\d*" id="codigoPostal" placeholder="Código Postal" class="form-input">
+                    <input type="number" pattern="\d*" id="dni" placeholder="DNI" class="form-input">
+                </div>
+            </div>
+            <input type="submit" value="Enviar" class="form-submit-button">
+        </form>
+        </div>
+        
+
+        <div class="link">
+            <blockquote>Material sacado de <a href="https://tt-hardware.com" target="_blank" rel="noopener noreferrer">TT-hardware.com</a></blockquote>
+        </div>
+        </div>
+        <aside class="side">
+            <h3>Noticias Relacionadas</h3>
+            <ul>
+              <li><a href="https://medium.com/@ignatovich.dm/css-in-2025-new-selectors-container-queries-and-ai-generated-styles-3ebf705f880f" target="_blank">CSS 2025: ¿nuevo paradigma?</a></li>
+              <li><a href="https://tc39.es/ecma262/?ref=nooptoday.com" target="_blank">JS: propuestas para ES2026</a></li>
+              <li><a href="https://blog.pixelfreestudio.com/webassembly-for-backend-developers-why-it-matters/" target="_blank">El futuro del backend en la era de WASM</a></li>
+            </ul>
+          </aside>
+    </main>
+    <footer>DESARROLLO-Y-ARQUITECTURAS-WEB / Aylen Rodriguez</footer>
+</body>
+<script src="../Class_10/script.js"></script>
+</html>
