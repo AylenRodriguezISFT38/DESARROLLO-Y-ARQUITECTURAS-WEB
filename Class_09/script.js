@@ -41,10 +41,14 @@ inputs.find(x => x.id === 'nombreCompleto').addEventListener('keydown', (e) => {
 });
 
 inputs.find(x => x.type === 'submit').addEventListener('click', (e) => {
+
     var popup = document.createElement('div');
     popup.classList.add('popup');
+
     if(isOk) {
+      
     popup.classList.add('popup');
+
     popup.innerHTML = `
     <h5>¡Gracias por suscribirte! 😁👍</h5>
     <p>Informacion de usuario:</p>
@@ -61,7 +65,9 @@ inputs.find(x => x.type === 'submit').addEventListener('click', (e) => {
     </ul>
     <button class="close-popup">Aceptar</button>`;
     }else{
+
       popup.classList.add('popup-error');
+
       popup.innerHTML = `
     <h5>¡Error! 😞</h5>
     <p>Todos los campos son obligatorios!</p>
@@ -70,6 +76,7 @@ inputs.find(x => x.type === 'submit').addEventListener('click', (e) => {
     </ul>
     <button class="close-popup">Cerrar</button>`;
     }
+
     document.body.appendChild(popup);
     document.querySelector('.close-popup').addEventListener('click', () => {
         popup.remove();
@@ -80,6 +87,7 @@ inputs.find(x => x.type === 'submit').addEventListener('click', (e) => {
           })
         }
     });
+    
     e.preventDefault();
 
 });
