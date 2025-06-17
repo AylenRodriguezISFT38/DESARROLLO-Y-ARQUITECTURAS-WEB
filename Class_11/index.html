@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Class_11/style.css">
+    <link rel="stylesheet" href="../Class_11/normalize.css">
+    <title>Api rest</title>
+</head>
+<body>
+    <header>
+        <h1>Rick and Morty API</h1>
+        <button class="btn-get" id="getCharacters">Get all characters</button>
+    </header>
+    <div>
+        <div class="filters">
+            <label for="character">Name:</label>
+            <input type="text" id="character" placeholder="Enter character name" class="filter-text">
+
+            <label for="status">Status:</label>
+            <select id="status">
+                <option value="">Select status</option>
+                <option value="alive">Alive</option>
+                <option value="dead">Dead</option>
+                <option value="unknown">Unknown</option>
+            </select>
+
+            <label for="species">Species:</label>
+            <input type="text" id="species" placeholder="Enter species" class="filter-text">
+
+            <label for="type">Type:</label>
+            <input type="text" id="type" placeholder="Enter type" class="filter-text">
+
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" placeholder="Enter gender" class="filter-text">
+
+            <button class="filter-btn" id="filter">Filter</button>
+        </div>
+    </div>
+    <div id="character-list">
+
+    </div>
+    <div class="pop-up">
+        <h3>Details</h3>
+    </div>   
+    <footer>>
+        <p>Aylen Rodriguez - Desarrollo y arquitectura</p>
+        <p>API: <a href="https://rickandmortyapi.com/" target="_blank">Rick and Morty API</a></p>
+    </footer>
+<script src="../Class_11/script.js"></script>
+</body>
+</html>
